@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  mode: debug
+
+database:
+  driver: postgres
+  dsn: "host=localhost user=postgres password=postgres dbname=argus port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+
+redis:
+  addr: "127.0.0.1:6379"
+  password: ""
+  db: 0
+
+ai:
+  provider: openai
+  api_key: "test-sk-a45d179cff694294bd1b4c430f062a45"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  model: "qwen-plus"
+  timeout_seconds: 120
+
+security:
+  jwt_secret: "argus_jwt_secret"
+  two_fa_secret_key: "argus_two_fa_secret_key"
+  privacy_sanitize_response: false

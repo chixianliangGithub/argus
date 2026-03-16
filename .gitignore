@@ -1,0 +1,7 @@
+*.db
+*.exe
+web/dist/
+.DS_Store
+node_modules/
+.idea/
+.trae/
