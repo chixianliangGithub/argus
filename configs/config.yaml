@@ -13,7 +13,7 @@ redis:
 
 ai:
   provider: openai
-  api_key: "test-sk-a45d179cff694294bd1b4c430f062a45"
+  api_key: "你的秘钥"
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   model: "qwen-plus"
   timeout_seconds: 120
